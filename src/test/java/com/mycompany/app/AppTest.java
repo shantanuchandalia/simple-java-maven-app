@@ -1,11 +1,17 @@
 package com.mycompany.app;
 
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
+
+import org.junit.After;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.After;
-import static org.junit.Assert.*;
+
+
 
 /**
  * Unit test for simple App.
@@ -41,7 +47,7 @@ public class AppTest
     }
 	@Test
     public void testOne() {
-      assertEquals(true);
+		Assert.assertEquals(1, 1);
     }
 
     @After
