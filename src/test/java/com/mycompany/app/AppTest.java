@@ -47,7 +47,7 @@ public class AppTest
     }
 	@Test
     public void testOne() {
-		Assert.assertEquals(1, 1);
+		Assert.assertEquals(1, 11);
     }
 
     @After
